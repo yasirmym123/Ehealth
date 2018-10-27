@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 import { logoutUser } from '../../actions/authActions';
 import { clearCurrentProfile } from '../../actions/profileActions';
 
-
 class Navbar extends Component {
   onLogoutClick(e) {
     e.preventDefault();
@@ -66,7 +65,7 @@ class Navbar extends Component {
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-4">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            EHealthConnector
+            ALHadi Estate Agency
           </Link>
           <button
             className="navbar-toggler"
@@ -82,34 +81,29 @@ class Navbar extends Component {
               <li className="nav-item">
                 <Link className="nav-link" to="/profiles">
                   {' '}
-                  Emergency Health Professionals
+                  Business Patners
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/organisation">
+                <Link className="nav-link" to="/royalgarden">
                   {' '}
-                  Organisation
-                </Link>
-              </li>
-
-               <li className="nav-item">
-                <Link className="nav-link" to="/mission">
-                  {' '}
-                  Mission
+                  RoyalGardens
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/health">
+                <Link className="nav-link" to="/aligarden">
                   {' '}
-                  Training & HealthCare
+                  AliGardens
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/photos">
+                <Link className="nav-link" to="/rabanigarden">
                   {' '}
-                  Photos
+                  RabaniGardens
                 </Link>
               </li>
+              
+              
             </ul>
             {isAuthenticated ? authLinks : guestLinks}
           </div>

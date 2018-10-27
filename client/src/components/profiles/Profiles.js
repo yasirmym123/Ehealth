@@ -31,9 +31,9 @@ class Profiles extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="display-4 text-center">Emergency Health Professional Profiles</h1>
+              <h1 className="display-4 text-center">Business Developer Profiles</h1>
               <p className="lead text-center">
-                Browse and connect with Emergency Health Professionals
+                Browse and connect with developers
               </p>
               {profileItems}
             </div>

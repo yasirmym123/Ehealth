@@ -21,14 +21,15 @@ import EditProfile from './components/edit-profile/EditProfile';
 import AddExperience from './components/add-credentials/AddExperience';
 import AddEducation from './components/add-credentials/AddEducation';
 import Profiles from './components/profiles/Profiles';
-import Organisation from './components/Organisation/organisation';
-import Mission from './components/Mission/Mission';
-import Health from './components/Health/Health';
-import Photos from './components/Photos/Photos';
 import Profile from './components/profile/Profile';
 import Posts from './components/posts/Posts';
 import Post from './components/post/Post';
 import NotFound from './components/not-found/NotFound';
+import RoyalGardens from './components/RoyalGardens/royal';
+import AliGardens from './components/AliGardens/aligardens';
+import RabaniGardens from './components/RabaniGardens/rabani';
+
+
 
 import './App.css';
 
@@ -65,11 +66,10 @@ class App extends Component {
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/profiles" component={Profiles} />
-              <Route exact path="/organisation" component={Organisation} />
-              <Route exact path="/mission" component={Mission} />
-              <Route exact path="/health" component={Health} />
-              <Route exact path="/photos" component={Photos} />
               <Route exact path="/profile/:handle" component={Profile} />
+              <Route exact path="/royalgarden" component={RoyalGardens} />
+              <Route exact path="/aligarden" component={AliGardens} />
+              <Route exact path="/rabanigarden" component={RabaniGardens} />
               <Switch>
                 <PrivateRoute exact path="/dashboard" component={Dashboard} />
               </Switch>
