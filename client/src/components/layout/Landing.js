@@ -17,11 +17,11 @@ class Landing extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h1 className="display-3 mb-4">AL Hadi Estate Agency</h1>
+                <h1 className="display-3 mb-4">AL Hadi Estate Advisor</h1>
                 <p className="lead">
                   {' '}
-                  Create a business profile/portfolio, share posts and get help
-                  from other Business developers
+                  Create a business profile/portfolio, share posts and  help
+                   other Business developers
                 </p>
                 <hr />
                 <Link to="/register" className="btn btn-lg btn-info mr-2">
